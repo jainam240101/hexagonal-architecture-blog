@@ -13,5 +13,8 @@ func UserRoutes(apiRouter *gin.RouterGroup, db *gorm.DB) {
 	route := apiRouter.Group("/users")
 	{
 		route.POST("/", uh.CreateUser)
+		route.GET("/search", uh.FindUserById)
+		route.PUT("/", uh.UpdateUser)
+		route.DELETE("/", uh.DeleteUser)
 	}
 }

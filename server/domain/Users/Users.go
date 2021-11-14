@@ -14,6 +14,10 @@ type UserModel struct {
 	Username string    `json:"username" gorm:"uniqueIndex"`
 }
 
+
 type UserRepository interface {
 	CreateUser(UserModel) (*UserModel, error)
+	FindUserById(string) (*UserModel, error)
+	UpdateUser(string, UserModel) (*UserModel, error)
+	DeleteUser(string) error
 }
