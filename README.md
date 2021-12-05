@@ -37,7 +37,7 @@ This section consists of all the Libraries and Programming langauge used
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started - Github Branches to Access the Code
 <ul>
   <li><a href="https://github.com/jainam240101/hexagonal-architecture-blog/tree/1-Introduction">Introduction to Creating Hexagonal Architecture</a></li>
   <li><a href="https://github.com/jainam240101/hexagonal-architecture-blog/tree/2-User-Operations">User Operations</a><br/></li>
